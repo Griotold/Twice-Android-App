@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
  * 앱이 본격적으로 시작되기 전에 "앱의 로고나 브랜드를 잠깐 보여주는 화면"
  * 앱이 초기 데이터를 로딩하거나 준비하는 동안 사용자에게 "앱이 잘 실행되고 있다"는 신호를 주기 위함
  * */
+@Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
